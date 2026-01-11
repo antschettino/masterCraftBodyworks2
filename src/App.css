@@ -105,7 +105,7 @@ h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 500; text-trans
 .about-image-label { position: absolute; bottom: 20px; left: -40px; background: var(--accent-primary); color: white; padding: 1rem 1.5rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; writing-mode: vertical-rl; transform: rotate(180deg); }
 .about-title { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem; }
 .about-text { color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 1.05rem; }
-.about-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(0,0,0,0.1); max-width: 400px; }
+.about-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(0,0,0,0.1); max-width: 400px; margin-left: auto; margin-right: auto; }
 .stat { text-align: center; }
 .stat-value { display: block; font-family: 'Oswald', sans-serif; font-size: 2.5rem; font-weight: 500; color: var(--bg-dark); line-height: 1; margin-bottom: 0.5rem; }
 .stat-value span { color: var(--accent-primary); }
@@ -283,6 +283,15 @@ h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 500; text-trans
   }
   .btn-primary:active {
     background: var(--accent-dark);
+  }
+  .about {
+    padding: 50px 0;
+  }
+  .services {
+    padding: 50px 0;
+  }
+  .contact {
+    padding: 50px 0;
   }
 }
 @media (max-width: 500px) {

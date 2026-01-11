@@ -57,12 +57,12 @@ const Hero = () => {
         <div className="hero-accent-line"/>
       </div>
       <div className="hero-content">
-        <div className="hero-badge">ESTABLISHED 2020</div>
+        <div className="hero-badge">ESTABLISHED 2023</div>
         <h1 className="hero-title">
           <span className="hero-title-main">Precision in Every Detail</span>
         </h1>
         <p className="hero-description">
-          Where traditional craftsmanship meets modern precision. We restore, repair, and perfect vehicles with uncompromising attention to detail.
+          Where precision engineering meets uncompromising quality. We restore, repair, and perfect vehicles with exceptional attention to detail.
         </p>
         <div className="hero-cta">
           <button className="btn btn-primary" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -92,7 +92,7 @@ const About = () => {
           <div className="about-image-frame">
             <img src="/gallery/DSC_1899.jpg" alt="MasterCraft Bodyworks" />
           </div>
-          <div className="about-image-label">Since 2020</div>
+          <div className="about-image-label">Since 2023</div>
         </div>
         <div className="about-content">
           <div className="section-label">About Us</div>
@@ -141,7 +141,7 @@ const Gallery = ({ isOpen, onClose }) => {
     { src: '/gallery/IMG_7185.jpeg', alt: 'Car preparation for paint' },
     { src: '/gallery/IMG_7110.jpeg', alt: 'Detailing products' },
     { src: '/gallery/IMG_7068.jpeg', alt: 'Metal panel work' },
-    { src: '/gallery/IMG_6826.jpeg', alt: 'Custom wheel and bodywork' },
+    { src: '/gallery/IMG_6826.jpg', alt: 'Custom wheel and bodywork' },
     { src: '/gallery/minorScratches.jpg', alt: 'Paint finish work' },
   ];
 
@@ -395,7 +395,7 @@ const Footer = () => (
             className="logo-img"
           />
         </div>
-        <p>Excellence in automotive bodywork since 2020. Precision, quality, and craftsmanship in every project.</p>
+        <p>Excellence in automotive bodywork since 2023. Precision, quality, and craftsmanship in every project.</p>
       </div>
       <div className="footer-links">
         <div className="footer-column">

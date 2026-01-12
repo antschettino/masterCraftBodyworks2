@@ -293,7 +293,7 @@ const Contact = () => {
         <div className="section-header">
           <div className="section-label">Get In Touch</div>
           <h2 className="section-title">Contact <span className="text-accent">Us</span></h2>
-          <p className="section-subtitle">Ready to restore your vehicle to perfection? Get in touch for a free consultation</p>
+          <p className="section-subtitle">Ready to discuss your requirements? Get in touch using the form below.</p>
         </div>
         <div className="contact-grid">
           <div className="contact-form-wrapper">
@@ -301,7 +301,7 @@ const Contact = () => {
               <div className="form-success">
                 <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="32" cy="32" r="28"/><path d="M20 32L28 40L44 24"/></svg>
                 <h3>Message Sent!</h3>
-                <p>We'll get back to you within 24 hours.</p>
+                <p>We'll get back to you within 48 hours.</p>
                 <button className="btn btn-primary" onClick={() => setSubmitted(false)}><span>Send Another</span></button>
               </div>
             ) : (

@@ -98,10 +98,9 @@ const About = () => {
           <div className="section-label">About Us</div>
           <h2 className="about-title">Craftsmanship <span className="text-accent">Perfected</span></h2>
           <p className="about-text">
-            Founded with a philosophy inspired by Japanese craftsmanship, Mastercraft Bodyworks delivers uncompromising quality in automotive restoration. Our master technicians combine time-honoured techniques with cutting-edge technology.
-          </p>
+            MasterCraft Bodyworks delivers comprehensive automotive bodywork services from our fully-equipped facility in Enstone. Advanced paint technology, precision repair equipment, and expert craftsmanship combine to produce exceptional results across every service we offer.          </p>
           <p className="about-text">
-            From precision dent repairs to complete collision restoration, every vehicle receives the same meticulous attention to detail. Our commitment to excellence has made us the trusted choice for discerning car owners.
+            From minor repairs to complete restorations, classic rebuilds to custom motorsport fabrication, we work across cars, motorcycles, and specialist projects. Our diverse capabilities and commitment to quality have made us a trusted choice for bodywork services. <a className="inline-link" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>Get in touch</a> to discuss your project today.
           </p>
           <div className="about-stats">
             {stats.map((s, i) => (
@@ -192,7 +191,7 @@ const Services = () => {
     { image: '/gallery/IMG_7110.jpeg', title: 'Detailing', description: 'Professional detailing and Ceramic Coating to protect and enhance your vehicle\'s appearance.', features: ['Paint correction', 'Ceramic coating', 'Protection film'] },
     { image: '/gallery/IMG_6826.jpg', title: 'Wheel Refurbishing', description: 'Expert restoration of damaged alloy wheels to factory-fresh condition, from kerb damage to full refinishing', features: ['Kerb damage', 'Custom finishes'] },
     { image: '/gallery/DSC_1674.jpg', title: 'Fabrication Work', description: 'Metalwork and fabrication for custom builds, classic restorations, and unique modifications.', features: ['Rust repair', 'Chassis work', 'Panel Replacement'] },
-    { image: '/gallery/IMG_7502.jpeg', title: 'Custom Restorations', description: 'Bespoke restoration services crafted to your exact specifications.', features: ['Restorations', 'Modifications'], }
+    { image: '/gallery/IMG_7502.jpeg', title: 'Custom Projects & Restorations', description: 'Bespoke services tailored to your exact project specifications.', features: ['Restorations', 'Modifications', 'Motorsport Projects'], }
   ];
   return (
     <section id="services" className="services">

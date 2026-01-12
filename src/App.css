@@ -112,6 +112,8 @@ h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 500; text-trans
 .stat-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; color: var(--text-muted); text-transform: uppercase; }
 .stat-stars {  display: flex;  gap: 0.25rem;  justify-content: center;  margin: 0.5rem 0;}
 .star-icon {  width: 20px;  height: 20px;  color: #FFD700;}
+.inline-link {  color: var(--accent-primary);  text-decoration: none;  cursor: pointer;  border-bottom: 1px solid var(--accent-primary);  transition: color var(--transition-fast);}
+.inline-link:hover {  color: var(--accent-dark);  border-bottom-color: var(--accent-dark);}
 
 /* Services */
 .services { padding: clamp(80px, 12vh, 140px) 0; background: var(--bg-primary); position: relative; }
@@ -292,6 +294,17 @@ h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 500; text-trans
   }
   .contact {
     padding: 50px 0;
+  }
+  .service-card:hover {
+    border-color: rgba(0,0,0,0.08);
+    box-shadow: none;
+    transform: none;
+  }
+  .service-card:hover::before {
+    height: 0;
+  }
+  .service-card:hover .service-image img {
+    transform: none;
   }
 }
 @media (max-width: 500px) {

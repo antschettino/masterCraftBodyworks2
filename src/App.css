@@ -250,6 +250,9 @@ h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 500; text-trans
   .nav-link::after {
     display: none;
   }
+  .header.scrolled {
+    padding: 1rem 0;
+  }
   .menu-toggle { display: block; }
   .menu-toggle.open span {
     background: transparent;

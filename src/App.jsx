@@ -20,7 +20,7 @@ const Header = ({ activeSection }) => {
       <div className="header-content">
         <div className="logo">
           <img 
-            src="https://www.mastercraftbodyworks.co.uk/static/media/MasterCraftwhite.13454544.png" 
+            src="/MasterCraftwhite.png"
             alt="Mastercraft Bodyworks" 
             className="logo-img"
           />
@@ -389,7 +389,7 @@ const Footer = () => (
       <div className="footer-brand">
         <div className="logo">
           <img 
-            src="https://www.mastercraftbodyworks.co.uk/static/media/MasterCraftwhite.13454544.png" 
+            src="/MasterCraftwhite.png" 
             alt="Mastercraft Bodyworks" 
             className="logo-img"
           />
